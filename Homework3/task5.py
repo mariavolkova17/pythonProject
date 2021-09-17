@@ -1,0 +1,6 @@
+a = int(input("Введите число от 0 до 15: "))
+b = str((a // 8) % 2)
+c = str((a // 4) % 2)
+d = str((a // 2) % 2)
+e = str(a % 2)
+print(b + c + d + e)
